@@ -1,27 +1,27 @@
 body {
-    width: 1000px;
+    width: 100vw;
 }
 
-article {
-    width: 450px;
-    height: 300px;
-    margin: 30px;
-}
-
-ul {
-    list-style: none;
-    display: flex;
+header {
+    background-color: rgb(168, 171, 172);
 }
 
 img {
-    width: 450px;
-    height: 300px;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
 }
 
-article {
+.item {
     position: relative;
     cursor: pointer;
     display: inline-block;
+    
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -37,7 +37,8 @@ article {
     height: 200px;
 }
 
-article:hover .info {
+.item:hover .info {
     display: inline-block;
-    left: -50px;
+    left: -10px;
 }
+
